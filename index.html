@@ -6,6 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harsh Verma | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add styles here to ensure the certificates are displayed in columns */
+        .certificate-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .certificate-card {
+            width: 30%;
+            margin: 10px;
+            background-color: #e3e8ee;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .certificate-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .certificate-card a {
+            display: block;
+            margin-top: 10px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .certificate-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -26,21 +59,59 @@
         <div class="project-container">
             <div class="project-card">
                 <h3>Tic Tac Toe</h3>
-                
                 <a href="https://www.linkedin.com/posts/harsh-verma-346495208_java-programming-gamedevelopment-activity-7206669943910649856-0ZOT?utm_source=share&utm_medium=member_desktop" target="_blank">A classic game built using Java.</a>
-
-                
             </div>
             <div class="project-card">
                 <h3>Connect Four</h3>
-                
                 <a href="https://www.linkedin.com/posts/harsh-verma-346495208_java-programming-coding-activity-7209837626025992192-70Lx?utm_source=share&utm_medium=member_desktop" target="_blank">An interactive Connect Four game in Java.</a>
             </div>
             <div class="project-card">
                 <h3>Accounts Manager</h3>
-                
                 <a href="https://www.linkedin.com/posts/harsh-verma-346495208_java-programming-tech-activity-7208913159015841792-3ttj?utm_source=share&utm_medium=member_desktop" target="_blank">A Well Defined Accounts Manager Program</a>
             </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <div class="certificate-container">
+            <div class="certificate-card">
+                <img src="HARSH VERMA -GSCJUJSF9F049.jpg" alt="GDSC Certificate">
+                <h3>GDSC Certificate</h3>
+                <p>Issued by Google.</p>
+                <a href="https://www.linkedin.com/posts/harsh-verma-346495208_googlecloud-studyjam-cloudcomputing-activity-7204754120770035712-N00D?utm_source=share&utm_medium=member_desktop" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="UC-20e0ec6b-db3e-427b-a175-ef9115422264.jpg" alt="Java Programming Certificate">
+                <h3>Java Programming Certificate</h3>
+                <p>Issued by Udemy</p>
+                <a href="https://www.linkedin.com/posts/harsh-verma-346495208_java-programming-softwaredevelopment-activity-7210239939404255233-ZeGL?utm_source=share&utm_medium=member_desktop" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="UC-5593a9ef-568d-4550-b9a5-83f8fd942a8b-1.png" alt="Udemy Certificate">
+                <h3>Ethical Hacking Certificate</h3>
+                <p>Issued by Udemy</p>
+                <a href="https://www.linkedin.com/posts/harsh-verma-346495208_ethicalhacking-cybersecurity-udemy-activity-7204752728781189120-JFRy?utm_source=share&utm_medium=member_desktop" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="The Joy of Computing using Python.jpg" alt="NPTEL Certificate">
+                <h3>The Joy of Computing using Python</h3>
+                <p>Issued by NPTEL.</p>
+                <a href="https://www.linkedin.com/posts/harsh-verma-346495208_pythonprogramming-nptel-professionaldevelopment-activity-7204753249554370560-jIXL?utm_source=share&utm_medium=member_desktop" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="Cloud Computing-1.png" alt="NPTEL Certificate">
+                <h3>Cloud Computing</h3>
+                <p>Issued by NPTEL.</p>
+                <a href="https://www.linkedin.com/posts/harsh-verma-346495208_cloudcomputing-nptel-professionaldevelopment-activity-7204754550094766080-AB-j?utm_source=share&utm_medium=member_desktop" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="Privacy And Security In Online Social Media-1.png" alt="NPTEL Certificate">
+                <h3>Privacy And Security In Online Social Media</h3>
+                <p>Issued by NPTEL.</p>
+                <a href="https://www.linkedin.com/posts/harsh-verma-346495208_onlineprivacy-cybersecurity-nptel-activity-7204752159651893248-TLp5?utm_source=share&utm_medium=member_desktop" target="_blank">View Certificate</a>
+            </div>
+            <!-- Add more certificates here with images -->
         </div>
     </section>
 
@@ -59,7 +130,6 @@
         </div>
     </section>
     
-
     <section id="android-development">
         <h2>Android Development</h2>
         <p>Currently learning Android app development using Java and Kotlin. Excited to build innovative mobile applications!</p>
