@@ -3,8 +3,22 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f7f9fc;
+    background: linear-gradient(-45deg, #a1c4fd, #c2e9fb, #d4fc79, #96e6a1);
+    background-size: 400% 400%;
+    animation: gradientBackground 5s ease infinite; /* Adjusted the duration to 5s for a faster animation */
     color: #333;
+}
+
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 header {
@@ -14,7 +28,7 @@ header {
 }
 
 .banner {
-    background: url('banner.jpg') no-repeat center center/cover;
+    background: url('background-7276646_1280.jpg') no-repeat center center/cover;
     padding: 100px 0;
 }
 
